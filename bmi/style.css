@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+/* img{
+    filter: drop-shadow(10px 10px 20px rgb(27, 26, 26));
+    box-shadow: 10px 10px 20px rgb(27, 26, 26);
+}  */
