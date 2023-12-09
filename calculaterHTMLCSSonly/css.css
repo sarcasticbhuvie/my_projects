@@ -1,0 +1,39 @@
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 50px;
+}
+h1{margin: auto;}
+form{
+  background-color: black;
+  width: 420px;
+  border-radius: 50px;
+  padding:70px  20px;
+  margin: auto;
+}
+
+input{
+  width: 94%;
+  background-color: black;
+  border: none;
+  font-size: 50px;
+  padding: 10px;
+  margin: auto;
+height: 100px;
+color: aliceblue;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+.grid>input{
+    padding: 1px;
+      border-radius: 100%;
+      background-color: aliceblue;
+      cursor: pointer;
+      background-color: gray;
+      border: none;
+  font-size: 30px;
+}
