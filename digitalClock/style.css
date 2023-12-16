@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.664);
+}
+div{
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    height: 100px;
+    width: 300px;
+    background-color: rgb(224, 154, 129);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div:hover{
+    border: 2px solid red;
+    transition: ease-in-out 0.5s;
+}
+.time{
+}
