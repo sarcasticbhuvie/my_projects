@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Montserrat+Alternates:wght@200;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #37392E;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+h1{
+    font-size:45px;
+    margin-bottom: 20px;
+    color: #EEE5E5;
+    text-transform: uppercase;
+}
+.container{
+    height: 30vw;
+    width: 30vw;
+    background-color: #162521;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    border-radius: 25px;
+    border: 5px solid #C0E0DE;
+    border-top: 5px solid #468C98;
+    /* border: 2px solid #3d5964; */
+    /* animation: loaderAnimation 5s ease-in-out infinite normal; */
+
+}
+@keyframes loaderAnimation{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+
+            }
+        }
+.box{
+    all: unset;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 90px;
+    text-transform: uppercase;
+    height: 8vw;
+    width: 8vw;
+    /* border: 2px solid #8a5721; */
+    background-color: #C0E0DE ;
+    /* font-size: 100px; */
+    font-weight: 600;
+    color: #104a5e;
+}
+.resetGame{
+    all: unset;
+    background-color: #DDCECD;
+    /* border:5px solid #446574 ; */
+    color: #19647E;
+    text-align: center;
+    border-radius: 20px;
+    height: 4vw;
+    width: 18vw;
+    font-size: 2vw;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+.newGame{
+    all: unset;
+    background-color: #DDCECD;
+    /* border:5px solid #446574 ; */
+    color: #19647E;
+    text-align: center;
+    border-radius: 20px;
+    height: 4vw;
+    width: 18vw;
+    font-size: 2vw;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+.new{
+    position: absolute;
+    font-size: 45px;
+    font-weight: 500;
+    color: #EEE5E5;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #524e4e;
+    margin-top: 10%;
+    display: none;
+}
+.winmsg{
+    position: absolute;
+    font-size: 60px;
+    font-weight: 600;
+    color: #EEE5E5;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #524e4e4f;
+    margin-top: 9%;
+    display: none;
+}
+.reset{
+    position: absolute;
+    font-size: 45px;
+    font-weight: 500;
+    color: #EEE5E5;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #524e4e;
+    margin-top: 10%;
+    display: none;
+}
